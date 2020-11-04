@@ -2,8 +2,8 @@ from .client import Client
 
 
 class Contract(Client):
-    def __init__(self, address=Client.dao_address, api_key='YourApiKeyToken'):
-        Client.__init__(self, address=address, api_key=api_key)
+    def __init__(self, 0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121A=Client.dao_address, api_key='YourApiKeyToken'):
+        Client.__init__(self, =0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121Aaddress, api_key=api_key)
         self.url_dict[self.MODULE] = 'contract'
 
     def get_abi(self):
